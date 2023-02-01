@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>TimeZome API</title>
+  </head>
+  <body>
+    <!-- Current TimeZone -->
+
+    <h1>TimeZone API</h1>
+    <h1>Your Current TimeZone</h1>
+
+    <div id="timezone-container">
+      <div id="data">
+        <div id="location">Name of TimeZone:</div>
+        <div id="coordinates">
+          <div id="lat-coordinate">Lat:</div>
+          <div id="log-coordinate">Long:</div>
+        </div>
+        <div id="off-std">Offset STD:</div>
+        <div id="off-std-sec">Offset STD Seconds:</div>
+        <div id="off-dst">Offset DST:</div>
+        <div id="off-dst-sec">Offset DST Seconds:</div>
+        <div id="country">Country:</div>
+        <div id="postcode">Postcode:</div>
+        <div id="city">City:</div>
+      </div>
+    </div>
+
+    <!-- search TimeZone -->
+
+    <div id="search-timezone">
+      <h1 id="address-title">Enter Address</h1>
+      <input type="search" name="" id="search-input" placeholder="Address" />
+      <br />
+      <button type="submit" id="submit-button">Submit</button>
+      <div id="search-output"></div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>

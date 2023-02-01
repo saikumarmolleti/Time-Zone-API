@@ -1,0 +1,74 @@
+* {
+  font-family: 'Inter';
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 700;
+  padding: 20px;
+  font-size: 60px;
+}
+
+div {
+  padding: 10px 10px 10px 20px;
+}
+
+button {
+  margin: 20px 0px;
+  padding: 6px 40px;
+}
+
+/* Current Time Zone */
+
+#timezone-container {
+  width: 98%;
+  background-color: white;
+  color: black;
+  padding-bottom: 50px;
+}
+#data {
+  border: 1px groove black;
+}
+#coordinates {
+  display: flex;
+}
+
+#lat-coordinate {
+  width: 50%;
+  padding-left: 0%;
+}
+
+/* Search TimeZone */
+
+#search-timezone {
+  background-color: black;
+}
+
+#address-title {
+  padding-left: 0px;
+  color: white;
+}
+
+#search-input {
+  margin-top: 20px;
+  padding: 10px 15px;
+  width: 100%;
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+#search-output {
+  padding-left: 0px;
+}
+
+#result-title {
+  color: white;
+  padding-left: 0px;
+}
+
+#result {
+  color: white;
+  border: 1px groove white;
+}
